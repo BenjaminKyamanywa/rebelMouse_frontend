@@ -55,23 +55,12 @@ section {
     max-width: 128rem;
     padding: 0 1.5rem;
     margin: 0 auto;
+    background-color: var(--main-color);
+    color: var(--white-text);
 }
 
 /* Header styles */
-.header {
-    width: 100%;
-    height: 6rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--main-color);
-    z-index: 999;
-    margin: auto;
-}
+
 
 /* Header styles nav */
-.nav {
-
-}
-
 
