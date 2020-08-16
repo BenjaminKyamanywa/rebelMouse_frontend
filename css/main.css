@@ -33,7 +33,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif, Arial, Helvetica;
     font-size: 1.5rem;
-    /* color: var(--color-white); */
+    color: var(--dark-text);
 }
 
 a {
@@ -64,10 +64,9 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: ;
+    background-color: var(--main-color);
     z-index: 999;
     margin: auto;
-    width: 50%;
 }
 
 /* Header styles nav */
