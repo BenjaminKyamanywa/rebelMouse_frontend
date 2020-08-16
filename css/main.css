@@ -12,9 +12,16 @@
 
 /* custom color properties */
 :root {
-    --button-color: #2d2c2c;
-    --main-color: #4d3f34;
-    --color-white: #ffffff;
+    --main-color: #223C74;
+    --button-color: #C4497C;
+    --nav-active: #C8CC60;
+    --banner-background: #5C975E;
+    --banner-text-highlight: #D3E667;
+    --white-text: #ffffff;
+    --dark-text: #343841;
+    --pink-text: #C4497C;
+    --orange-text: #DF7A42;
+    --green-text: #75A95F;
 }
 
 /* Global styles */
@@ -63,5 +70,9 @@ section {
     width: 50%;
 }
 
+/* Header styles nav */
+.nav {
+
+}
 
 
