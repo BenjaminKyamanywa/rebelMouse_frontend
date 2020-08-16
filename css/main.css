@@ -1,0 +1,17 @@
+/* import of fonts */
+
+/* basic resets */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom color properties */
+:root {
+    --button: #2d2c2c;
+    --main-color: #4d3f34;
+
+}
