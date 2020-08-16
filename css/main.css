@@ -187,8 +187,8 @@ font-size: 30px;
 
     .card-detail {
         text-align: center;
-        font-size: 120%;
-        padding: 5% 5%;
+        font-size: 100%;
+        padding: 2% 2%;
     }
 
     .card-detail > p {
