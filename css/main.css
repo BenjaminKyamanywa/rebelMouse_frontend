@@ -5,8 +5,8 @@
     --main-color: rgb(34, 60, 116);
     --button-color: rgb(196, 73, 124);
     --nav-active: rgb(200, 204, 96);
-    --banner-background: rgb(92, 151, 94);
-    --banner-text-highlight: rgb(211, 230, 103);
+    --ribbon-background: rgb(92, 151, 94);
+    --ribbon-text-highlight: rgb(211, 230, 103);
     --white-color: rgb(255, 255, 255);
     --border-color: rgb(234, 234, 235);  /* #EAEAEB */
     --dark-text: rgb(52, 56, 65);
@@ -22,7 +22,6 @@ body {
 }
 
 /* Global */
-
 
 a {
     text-decoration: none;
@@ -69,6 +68,18 @@ label {
     display: none;
 }
 
+/* ribbon */
+.ribbon {
+    background-color: var(--ribbon-background);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.5% 0;
+}
+
+.inline-ribbon-text {
+    color: var(--ribbon-text-highlight);
+}
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -100,6 +111,11 @@ label {
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+    .nav {
+        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-repeat: no-repeat;
+    }
+
     label {
         display: block;
         cursor: pointer;
@@ -122,6 +138,11 @@ label {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+    .nav {
+        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-repeat: no-repeat;
+    }
+
     label {
         display: block;
         cursor: pointer;
