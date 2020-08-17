@@ -21,6 +21,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 	1.2rem; 
+    font-weight: 400;
 }
 
 a {
@@ -43,7 +45,6 @@ ul {
 
 header {
     background-color: var(--main-color);
-    padding: 5% 0;
 }
 
 .nav {
@@ -175,8 +176,9 @@ font-size: 20px;
 /* --------------- Card location styles ---------------*/
 
 .card {
-    padding: 1rem;
+    padding: 0.3rem;
     text-align: center;
+    font-size: 11px;
 }
 
 /* --------------- Card Date styles ---------------*/
@@ -187,4 +189,34 @@ font-size: 20px;
     padding: 1rem;
 }
 
+.colored-text-date {
+    color: var(--pink-text);
+    margin-left: 3rem;
+}
+
 /* --------------- Card Price styles ---------------*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    
+    body {
+        overflow: hidden;
+    }
+}
