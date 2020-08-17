@@ -81,4 +81,15 @@ label {
 
 .ribbon {
     background-color: var(--ribbon-background);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    margin: auto;
+}
+
+.inline-ribbon-text {
+    color: var(--ribbon-text-highlight);
 }
