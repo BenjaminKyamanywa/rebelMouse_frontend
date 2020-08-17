@@ -271,16 +271,17 @@ font-size: 30px;
         display: inline-block;
         padding-left: 19px;
     }
+    
+    /* --------------- Price card section styles ---------------*/
 
     .custom-currency-text-align {
         text-align: center;
     }
 
     .pricing-custom-align {
-        padding-left: 2.2rem;
+        padding-left: 2.4rem;
     }
 
-    /* --------------- Price card section styles ---------------*/
 
     .fourth-card {
         margin: 10% auto;
@@ -303,7 +304,7 @@ font-size: 30px;
     }
 
     .currency-amount {
-        font-size: 350%;
+        font-size: 200%;
     }
 
     .currency-text-top {
@@ -318,10 +319,12 @@ font-size: 30px;
         right: 9rem;
         padding: 0;
         margin: 0;
+        font-size: 1rem;
     }
 
     .currency-text-checkmark, .fa-check{
         color: var(--green-text);
+        font-size: 1.4rem;
     }
 
 }
