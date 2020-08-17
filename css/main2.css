@@ -218,7 +218,7 @@ hr {
     padding: 1rem;
 }
 
-.colored-text-date {
+a:hover, .colored-text-date {
     color: var(--pink-text);
     float: right;
 }
@@ -228,7 +228,7 @@ hr {
     margin-right: -1rem;
 }
 
-.date-labels{
+.date-labels {
     display: inline-block;
     font-size: 1.3rem;
 }
