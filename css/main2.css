@@ -95,6 +95,10 @@ p {
     color: var(--ribbon-text-highlight);
 }
 
+.site-content-items {
+    padding: 7rem 0;
+}
+
 /* --------------- Image slider carousel styles ---------------*/
 
 .slider{
@@ -171,6 +175,7 @@ font-size: 20px;
     height: 18%;
     float: right;
     margin: 0% 10%;
+    padding: 2rem 0;
 }
 
 /* --------------- Card location styles ---------------*/
