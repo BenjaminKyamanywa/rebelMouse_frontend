@@ -10,7 +10,7 @@
     --border-color: rgb(234, 234, 235);  /* #EAEAEB */
     --dark-text: rgb(52, 56, 65);
     --pink-text: rgb(230, 32, 126);
-    --orange-text: rgb(210, 127, 78);
+    --orange-text: rgb(245, 166, 35);
     --green-text: rgb(118, 160, 91);
     --white-text: rgb(255, 255, 255);
     --card-border-color: rgb(204, 204, 204);
@@ -243,6 +243,23 @@ button.button-primary:active {
 button.button-primary:focus {
     background: var(--button-hover);
     border-color: var(--button-hover);
+}
+
+.discount {
+    background-color: var(--orange-text);
+    padding: 0.5rem 0.5rem;
+    color: var(--white-text);
+    font-weight: 600;
+} 
+
+.price {
+    color: var(--orange-text);
+    font-size: 3.5rem;
+}
+
+.currency-symbol {
+    color: var(--orange-text);
+    font-size: 1.5rem;
 }
 
 /* Larger than mobile */
