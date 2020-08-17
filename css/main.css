@@ -229,19 +229,19 @@ font-size: 30px;
 
     .colored-text-date {
         color: var(--pink-text);
-        padding-left: 40%;
+        padding-left: 30%;
     }
 
     .date {
         font-weight: 600;
-        font-size: 450%;
+        font-size: 200%;
         padding: 0;
         margin: 0;
     }
 
     .date-month {
         position: relative;
-        bottom: 3.5rem;
+        bottom: 2rem;
         padding: 0;
         margin: 0;
     }
