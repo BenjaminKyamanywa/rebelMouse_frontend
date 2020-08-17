@@ -274,6 +274,33 @@ font-size: 30px;
         font-weight: 600;
     }
 
+    .currency, .currency-amount, .currency-text-top{
+        font-weight: 600;
+        color: var(--orange-text);
+    }
+
+    .currency-amount {
+        font-size: 350%;
+    }
+
+    .currency-text-top {
+        position: relative;
+        bottom: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-bottom {
+        position: relative;
+        right: 9rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-checkmark, .fa-check{
+        color: var(--green-text);
+    }
+
 }
 
 /* Larger than phablet (also point when grid becomes active) */
