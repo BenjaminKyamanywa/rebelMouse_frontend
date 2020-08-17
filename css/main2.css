@@ -220,7 +220,25 @@ hr {
 
 .colored-text-date {
     color: var(--pink-text);
-    margin-left: 3rem;
+    float: right;
+}
+
+.date {
+    font-size: 4rem;
+    margin-right: -1rem;
+}
+
+.date-labels{
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+.second-date {
+    display: inline-block;
+}
+
+.fa-arrow-right {
+    padding: 0.5rem 0.5rem;
 }
 
 /* --------------- Card Price styles ---------------*/
@@ -265,12 +283,13 @@ button.button-primary:focus {
 .extra-text-pricing{
     display: inline-block;
     color: var(--green-text);
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 .currency-text-checkmark, .fa-check {
     color: var(--green-text);
 }
+
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
