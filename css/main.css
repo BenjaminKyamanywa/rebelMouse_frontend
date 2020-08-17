@@ -4,6 +4,7 @@
 :root {
     --main-color: rgb(34, 60, 116);
     --button-color: rgb(196, 73, 124);
+    --button-hover: rgb(236, 122, 170);
     --nav-active: rgb(200, 204, 96);
     --ribbon-background: rgb(92, 151, 94);
     --ribbon-text-highlight: rgb(211, 230, 103);
@@ -30,6 +31,17 @@ a {
 
 ul {
     list-style: none;
+}
+
+.button-secondary {
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+    color: var(--white-color);
+}
+
+.button-secondary:hover {
+    background-color: var(--button-hover);
+    border-color: var(--white-color);
 }
 
 /* Header */
@@ -219,11 +231,15 @@ font-size: 30px;
     .date-month {
         position: relative;
         bottom: 3.5rem;
+        padding: 0;
+        margin: 0;
     }
 
     .date-year {
         position: relative;
         right: 3.4rem;
+        padding: 0;
+        margin: 0;
     }
 
     .arrow > img {
@@ -241,6 +257,13 @@ font-size: 30px;
         padding-left: 19px;
     }
 
+    .fourth-card {
+        margin: 10% auto;
+    }
+
+    .button-secondary {
+        
+    }
 
 }
 
