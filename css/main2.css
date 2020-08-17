@@ -186,6 +186,11 @@ font-size: 20px;
     font-size: 11px;
 }
 
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /* --------------- Card Date styles ---------------*/
 
 .card-date {
