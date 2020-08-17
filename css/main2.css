@@ -171,3 +171,10 @@ font-size: 20px;
     float: right;
     margin: 0% 10%;
 }
+
+/* --------------- Card location styles ---------------*/
+
+.card {
+    padding: 1rem;
+    text-align: center;
+}
