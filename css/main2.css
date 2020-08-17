@@ -1,0 +1,84 @@
+/* --------------- Color variable properties ---------------*/
+:root {
+    --main-color: rgb(39, 61, 112);
+    --button-color: rgb(230, 30, 123);
+    --button-hover: rgb(247, 64, 149);
+    --nav-active: rgb(200, 204, 96);
+    --ribbon-background: rgb(106, 149, 100);
+    --ribbon-text-highlight: rgb(231, 237, 126);
+    --white-color: rgb(255, 255, 255);
+    --border-color: rgb(234, 234, 235);  /* #EAEAEB */
+    --dark-text: rgb(52, 56, 65);
+    --pink-text: rgb(230, 32, 126);
+    --orange-text: rgb(210, 127, 78);
+    --green-text: rgb(118, 160, 91);
+    --white-text: rgb(255, 255, 255);
+    --card-border-color: rgb(204, 204, 204);
+    
+}
+
+/* --------------- Global styles ---------------*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.button-secondary {
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+/* --------------- Header styles ---------------*/
+
+header {
+    background-color: var(--main-color);
+    padding: 5% 0;
+}
+
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+/* --------------- Header styles ---------------*/
+
+.ribbon {
+    background-color: var(--ribbon-background);
+}
