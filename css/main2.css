@@ -191,6 +191,22 @@ hr {
     margin-bottom: 2rem;
 }
 
+h4 {
+    margin-bottom: 0;
+}
+
+.area-location {
+    margin-bottom: 2rem;
+}
+
+.weather {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    margin-bottom: 1rem;
+}
+
 /* --------------- Card Date styles ---------------*/
 
 .card-date {
