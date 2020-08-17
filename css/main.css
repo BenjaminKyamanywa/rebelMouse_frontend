@@ -258,12 +258,20 @@ font-size: 30px;
         padding-left: 19px;
     }
 
+    /* Price section */
     .fourth-card {
         margin: 10% auto;
     }
 
     .button-container {
         text-align: center;
+    }
+
+    .discount {
+        background-color: var(--orange-text);
+        padding: 0.5rem 0.5rem;
+        color: var(--white-text);
+        font-weight: 600;
     }
 
 }
