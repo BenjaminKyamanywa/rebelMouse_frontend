@@ -271,6 +271,10 @@ font-size: 30px;
         display: inline-block;
         padding-left: 19px;
     }
+
+    .whole-date {
+        margin-left: 0;
+    }
     
     /* --------------- Price card section styles ---------------*/
 
@@ -440,6 +444,10 @@ font-size: 30px;
         padding-left: 19px;
     }
 
+    .whole-date {
+        margin-left: 0;
+    }
+
     /* --------------- Price card section styles ---------------*/
     
     .custom-currency-text-align {
@@ -599,6 +607,10 @@ font-size: 30px;
         padding-left: 19px;
     }
 
+    .whole-date {
+        margin-left: 0;
+    }
+
     /* --------------- Price card section styles ---------------*/
     
     .custom-currency-text-align {
@@ -700,6 +712,10 @@ font-size: 30px;
         margin: 5% auto;
     }
 
+    .location-header {
+        font-size: 3.5rem;
+    }
+
     /* --------------- Date card section styles ---------------*/
 
     .third-card {
@@ -709,6 +725,11 @@ font-size: 30px;
 
     .date-card {
         margin: 5% 5%;
+    }
+
+    .date-card-top-text {
+        font-weight: 600;
+        font-size: 2rem;
     }
 
     .colored-text-date {
@@ -752,6 +773,12 @@ font-size: 30px;
         padding-left: 19px;
     }
 
+    .whole-date {
+        margin-left: 10rem;
+    }
+    
+    /* --------------- Price card section styles ---------------*/
+    
     .custom-currency-text-align {
         text-align: center;
     }
@@ -760,7 +787,6 @@ font-size: 30px;
         padding-left: 2.2rem;
     }
 
-    /* --------------- Price card section styles ---------------*/
 
     .fourth-card {
         margin: 10% auto;
