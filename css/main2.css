@@ -85,6 +85,8 @@ label {
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
+    color: var(--white-text);
+    padding: 1rem;
 }
 
 p {
