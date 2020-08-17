@@ -180,17 +180,6 @@ font-size: 20px;
 
 /* --------------- Card location styles ---------------*/
 
-.card {
-    padding: 0.3rem;
-    text-align: center;
-    font-size: 11px;
-}
-
-hr {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 h4 {
     margin-bottom: 0;
 }
@@ -207,6 +196,20 @@ h4 {
     margin-bottom: 1rem;
 }
 
+/* --------------- Card option styles ---------------*/
+
+.card {
+    padding: 0.3rem;
+    text-align: center;
+    font-size: 11px;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 /* --------------- Card Date styles ---------------*/
 
 .card-date {
@@ -222,6 +225,25 @@ h4 {
 
 /* --------------- Card Price styles ---------------*/
 
+button.button-primary {
+    background: var(--button-color);
+    border-color: var(--button-color);
+}
+
+button.button-primary:hover {
+    background: var(--button-hover);
+    border-color: var(--button-hover);
+}
+
+button.button-primary:active {
+    background: var(--button-hover);
+    border-color: var(--button-hover);
+}
+
+button.button-primary:focus {
+    background: var(--button-hover);
+    border-color: var(--button-hover);
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
