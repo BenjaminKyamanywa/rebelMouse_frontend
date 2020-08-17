@@ -1,15 +1,15 @@
 /* --------------- Color variable properties ---------------*/
 :root {
     --main-color: rgb(39, 61, 112);
-    --button-color: rgb(182, 82, 123);
-    --button-hover: rgb(236, 122, 170);
+    --button-color: rgb(230, 30, 123);
+    --button-hover: rgb(247, 64, 149);
     --nav-active: rgb(200, 204, 96);
     --ribbon-background: rgb(106, 149, 100);
     --ribbon-text-highlight: rgb(231, 237, 126);
     --white-color: rgb(255, 255, 255);
     --border-color: rgb(234, 234, 235);  /* #EAEAEB */
     --dark-text: rgb(52, 56, 65);
-    --pink-text: rgb(236, 122, 170);
+    --pink-text: rgb(230, 32, 126);
     --orange-text: rgb(210, 127, 78);
     --green-text: rgb(118, 160, 91);
     --white-text: rgb(255, 255, 255);
@@ -37,11 +37,6 @@ ul {
     border-color: var(--button-color);
     color: var(--white-color);
     text-transform: uppercase;
-}
-
-.button-secondary:hover {
-    background-color: var(--button-hover);
-    border-color: var(--white-color);
 }
 
 /* --------------- Header styles ---------------*/
@@ -834,10 +829,13 @@ font-size: 30px;
 /* Larger than desktop */
 @media (min-width: 1000px) {
 
+    /* --------------- Content re arrangement styles ---------------*/
+    
+
     /* --------------- Navigation styles ---------------*/
 
     .nav {
-        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-image: url(../img/rebelMouse_logo.png);
         background-repeat: no-repeat;
     }
 
@@ -869,6 +867,9 @@ font-size: 30px;
     /* --------------- Location card section styles ---------------*/
 
     .card-detail {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0 auto;
         text-align: center;
         font-size: 100%;
         padding: 2% 2%;
@@ -876,6 +877,10 @@ font-size: 30px;
 
     .card-detail > p {
         margin: 5% auto;
+    }
+
+    .location-header {
+        font-size: 3.5rem;
     }
 
     /* --------------- Date card section styles ---------------*/
@@ -887,6 +892,11 @@ font-size: 30px;
 
     .date-card {
         margin: 5% 5%;
+    }
+
+    .date-card-top-text {
+        font-weight: 600;
+        font-size: 2rem;
     }
 
     .colored-text-date {
@@ -930,6 +940,12 @@ font-size: 30px;
         padding-left: 19px;
     }
 
+    .whole-date {
+        margin-left: 10rem;
+    }
+
+    /* --------------- Price card section styles ---------------*/
+    
     .custom-currency-text-align {
         text-align: center;
     }
@@ -938,7 +954,6 @@ font-size: 30px;
         padding-left: 2.2rem;
     }
 
-    /* --------------- Price card section styles ---------------*/
 
     .fourth-card {
         margin: 10% auto;
