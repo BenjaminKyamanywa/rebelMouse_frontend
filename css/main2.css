@@ -248,6 +248,7 @@ a:hover, .colored-text-date {
 button.button-primary {
     background: var(--button-color);
     border-color: var(--button-color);
+    margin-top: 2rem;
 }
 
 button.button-primary:hover {
