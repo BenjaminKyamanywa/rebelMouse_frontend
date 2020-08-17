@@ -1,6 +1,4 @@
-
-
-/* color properties */
+/* --------------- Color variable properties ---------------*/
 :root {
     --main-color: rgb(39, 61, 112);
     --button-color: rgb(182, 82, 123);
@@ -18,11 +16,11 @@
     
 }
 
+/* --------------- Global styles ---------------*/
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
-/* Global */
 
 a {
     text-decoration: none;
@@ -45,7 +43,8 @@ ul {
     border-color: var(--white-color);
 }
 
-/* Header */
+/* --------------- Header styles ---------------*/
+
 header {
     background-color: var(--main-color);
     padding: 5% 0;
@@ -81,7 +80,7 @@ label {
     display: none;
 }
 
-/* ribbon */
+/* --------------- Ribbon styles ---------------*/
 .ribbon {
     background-color: var(--ribbon-background);
     font-weight: 600;
@@ -89,7 +88,12 @@ label {
     text-transform: uppercase;
 }
 
-/* Image slider carousel */
+.ribbon > p {
+    margin: 0 auto;
+}
+
+/* --------------- Image slider carousel styles ---------------*/
+
 .slider{
 	max-width: 700px;
 	border:10px solid  var(--main-color);
@@ -161,15 +165,14 @@ font-size: 30px;
     color: var(--ribbon-text-highlight);
 }
 
-
-
-
-
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Larger than mobile */
 @media (min-width: 400px) {
+
+    /* --------------- Navigation styles ---------------*/
+
     .nav {
         background-image: url(../img/rebelMouse_logo_icon.png);
         background-repeat: no-repeat;
@@ -191,12 +194,16 @@ font-size: 30px;
         margin: 0;
     }
 
+    /* --------------- Badge styles ---------------*/
+
     .badge > img {
         width: 20%;
         height: 20%;
         float: right;
         margin: 0% 10%;
     }
+
+    /* --------------- Location card section styles ---------------*/
 
     .card-detail {
         text-align: center;
@@ -207,6 +214,8 @@ font-size: 30px;
     .card-detail > p {
         margin: 5% auto;
     }
+
+    /* --------------- Date card section styles ---------------*/
 
     .third-card {
         border-radius: 1rem;
@@ -258,7 +267,8 @@ font-size: 30px;
         padding-left: 19px;
     }
 
-    /* Price section */
+    /* --------------- Price card section styles ---------------*/
+
     .fourth-card {
         margin: 10% auto;
     }
@@ -304,6 +314,7 @@ font-size: 30px;
 }
 
 /* Larger than phablet (also point when grid becomes active) */
+
 @media (min-width: 550px) {
     .nav {
         background-image: url(../img/rebelMouse_logo_icon.png);
