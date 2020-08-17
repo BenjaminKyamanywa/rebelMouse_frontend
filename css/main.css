@@ -296,6 +296,7 @@ font-size: 30px;
         padding: 0.5rem 0.5rem;
         color: var(--white-text);
         font-weight: 600;
+        font-size: 1.3rem;
     }
 
     .currency, .currency-amount, .currency-text-top{
