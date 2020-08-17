@@ -168,6 +168,160 @@ font-size: 30px;
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Smaller mobile */
+/* Larger than mobile */
+@media (max-width: 400px) {
+
+    /* --------------- Navigation styles ---------------*/
+
+    .nav {
+        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-repeat: no-repeat;
+    }
+
+    label {
+        color: var(--white-color);
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    /* --------------- Badge styles ---------------*/
+
+    .badge > img {
+        width: 20%;
+        height: 20%;
+        float: right;
+        margin: 0% 10%;
+    }
+
+    /* --------------- Location card section styles ---------------*/
+
+    .card-detail {
+        text-align: center;
+        font-size: 100%;
+        padding: 2% 2%;
+    }
+
+    .card-detail > p {
+        margin: 5% auto;
+    }
+
+    /* --------------- Date card section styles ---------------*/
+
+    .third-card {
+        border-radius: 1rem;
+        border: 0.0625rem solid #ccc;
+    }
+
+    .date-card {
+        margin: 5% 5%;
+    }
+
+    .colored-text-date {
+        color: var(--pink-text);
+        padding-left: 40%;
+    }
+
+    .date {
+        font-weight: 600;
+        font-size: 450%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-month {
+        position: relative;
+        bottom: 3.5rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-year {
+        position: relative;
+        right: 3.4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .arrow > img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .date-one {
+        display: inline-block;
+
+    }
+
+    .date-two{
+        display: inline-block;
+        padding-left: 19px;
+    }
+
+    .custom-currency-text-align {
+        text-align: center;
+    }
+
+    .pricing-custom-align {
+        padding-left: 2.2rem;
+    }
+
+    /* --------------- Price card section styles ---------------*/
+
+    .fourth-card {
+        margin: 10% auto;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    .discount {
+        background-color: var(--orange-text);
+        padding: 0.5rem 0.5rem;
+        color: var(--white-text);
+        font-weight: 600;
+    }
+
+    .currency, .currency-amount, .currency-text-top{
+        font-weight: 600;
+        color: var(--orange-text);
+    }
+
+    .currency-amount {
+        font-size: 350%;
+    }
+
+    .currency-text-top {
+        position: relative;
+        bottom: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-bottom {
+        position: relative;
+        right: 9rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-checkmark, .fa-check{
+        color: var(--green-text);
+    }
+
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {
 
@@ -324,12 +478,15 @@ font-size: 30px;
 /* Larger than phablet (also point when grid becomes active) */
 
 @media (min-width: 550px) {
+    /* --------------- Navigation styles ---------------*/
+
     .nav {
         background-image: url(../img/rebelMouse_logo_icon.png);
         background-repeat: no-repeat;
     }
 
     label {
+        color: var(--white-color);
         display: block;
         cursor: pointer;
     }
@@ -342,21 +499,146 @@ font-size: 30px;
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
-     
     }
-    #toggle:checked + .menu {
-        display: block;
+
+    /* --------------- Badge styles ---------------*/
+
+    .badge > img {
+        width: 20%;
+        height: 20%;
+        float: right;
+        margin: 0% 10%;
+    }
+
+    /* --------------- Location card section styles ---------------*/
+
+    .card-detail {
+        text-align: center;
+        font-size: 100%;
+        padding: 2% 2%;
+    }
+
+    .card-detail > p {
+        margin: 5% auto;
+    }
+
+    /* --------------- Date card section styles ---------------*/
+
+    .third-card {
+        border-radius: 1rem;
+        border: 0.0625rem solid #ccc;
+    }
+
+    .date-card {
+        margin: 5% 5%;
+    }
+
+    .colored-text-date {
+        color: var(--pink-text);
+        padding-left: 40%;
+    }
+
+    .date {
+        font-weight: 600;
+        font-size: 450%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-month {
+        position: relative;
+        bottom: 3.5rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-year {
+        position: relative;
+        right: 3.4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .arrow > img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .date-one {
+        display: inline-block;
+
+    }
+
+    .date-two{
+        display: inline-block;
+        padding-left: 19px;
+    }
+
+    .custom-currency-text-align {
+        text-align: center;
+    }
+
+    .pricing-custom-align {
+        padding-left: 2.2rem;
+    }
+
+    /* --------------- Price card section styles ---------------*/
+
+    .fourth-card {
+        margin: 10% auto;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    .discount {
+        background-color: var(--orange-text);
+        padding: 0.5rem 0.5rem;
+        color: var(--white-text);
+        font-weight: 600;
+    }
+
+    .currency, .currency-amount, .currency-text-top{
+        font-weight: 600;
+        color: var(--orange-text);
+    }
+
+    .currency-amount {
+        font-size: 350%;
+    }
+
+    .currency-text-top {
+        position: relative;
+        bottom: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-bottom {
+        position: relative;
+        right: 9rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-checkmark, .fa-check{
+        color: var(--green-text);
     }
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+
+    /* --------------- Navigation styles ---------------*/
+
     .nav {
         background-image: url(../img/rebelMouse_logo_icon.png);
         background-repeat: no-repeat;
     }
 
     label {
+        color: var(--white-color);
         display: block;
         cursor: pointer;
     }
@@ -369,15 +651,434 @@ font-size: 30px;
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
-     
     }
-    #toggle:checked + .menu {
-        display: block;
+
+    /* --------------- Badge styles ---------------*/
+
+    .badge > img {
+        width: 20%;
+        height: 20%;
+        float: right;
+        margin: 0% 10%;
+    }
+
+    /* --------------- Location card section styles ---------------*/
+
+    .card-detail {
+        text-align: center;
+        font-size: 100%;
+        padding: 2% 2%;
+    }
+
+    .card-detail > p {
+        margin: 5% auto;
+    }
+
+    /* --------------- Date card section styles ---------------*/
+
+    .third-card {
+        border-radius: 1rem;
+        border: 0.0625rem solid #ccc;
+    }
+
+    .date-card {
+        margin: 5% 5%;
+    }
+
+    .colored-text-date {
+        color: var(--pink-text);
+        padding-left: 40%;
+    }
+
+    .date {
+        font-weight: 600;
+        font-size: 450%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-month {
+        position: relative;
+        bottom: 3.5rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-year {
+        position: relative;
+        right: 3.4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .arrow > img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .date-one {
+        display: inline-block;
+
+    }
+
+    .date-two{
+        display: inline-block;
+        padding-left: 19px;
+    }
+
+    .custom-currency-text-align {
+        text-align: center;
+    }
+
+    .pricing-custom-align {
+        padding-left: 2.2rem;
+    }
+
+    /* --------------- Price card section styles ---------------*/
+
+    .fourth-card {
+        margin: 10% auto;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    .discount {
+        background-color: var(--orange-text);
+        padding: 0.5rem 0.5rem;
+        color: var(--white-text);
+        font-weight: 600;
+    }
+
+    .currency, .currency-amount, .currency-text-top{
+        font-weight: 600;
+        color: var(--orange-text);
+    }
+
+    .currency-amount {
+        font-size: 350%;
+    }
+
+    .currency-text-top {
+        position: relative;
+        bottom: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-bottom {
+        position: relative;
+        right: 9rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-checkmark, .fa-check{
+        color: var(--green-text);
     }
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+
+    /* --------------- Navigation styles ---------------*/
+
+    .nav {
+        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-repeat: no-repeat;
+    }
+
+    label {
+        color: var(--white-color);
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    /* --------------- Badge styles ---------------*/
+
+    .badge > img {
+        width: 20%;
+        height: 20%;
+        float: right;
+        margin: 0% 10%;
+    }
+
+    /* --------------- Location card section styles ---------------*/
+
+    .card-detail {
+        text-align: center;
+        font-size: 100%;
+        padding: 2% 2%;
+    }
+
+    .card-detail > p {
+        margin: 5% auto;
+    }
+
+    /* --------------- Date card section styles ---------------*/
+
+    .third-card {
+        border-radius: 1rem;
+        border: 0.0625rem solid #ccc;
+    }
+
+    .date-card {
+        margin: 5% 5%;
+    }
+
+    .colored-text-date {
+        color: var(--pink-text);
+        padding-left: 40%;
+    }
+
+    .date {
+        font-weight: 600;
+        font-size: 450%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-month {
+        position: relative;
+        bottom: 3.5rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-year {
+        position: relative;
+        right: 3.4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .arrow > img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .date-one {
+        display: inline-block;
+
+    }
+
+    .date-two{
+        display: inline-block;
+        padding-left: 19px;
+    }
+
+    .custom-currency-text-align {
+        text-align: center;
+    }
+
+    .pricing-custom-align {
+        padding-left: 2.2rem;
+    }
+
+    /* --------------- Price card section styles ---------------*/
+
+    .fourth-card {
+        margin: 10% auto;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    .discount {
+        background-color: var(--orange-text);
+        padding: 0.5rem 0.5rem;
+        color: var(--white-text);
+        font-weight: 600;
+    }
+
+    .currency, .currency-amount, .currency-text-top{
+        font-weight: 600;
+        color: var(--orange-text);
+    }
+
+    .currency-amount {
+        font-size: 350%;
+    }
+
+    .currency-text-top {
+        position: relative;
+        bottom: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-bottom {
+        position: relative;
+        right: 9rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-checkmark, .fa-check{
+        color: var(--green-text);
+    }
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    
+    /* --------------- Navigation styles ---------------*/
+
+    .nav {
+        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-repeat: no-repeat;
+    }
+
+    label {
+        color: var(--white-color);
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    /* --------------- Badge styles ---------------*/
+
+    .badge > img {
+        width: 20%;
+        height: 20%;
+        float: right;
+        margin: 0% 10%;
+    }
+
+    /* --------------- Location card section styles ---------------*/
+
+    .card-detail {
+        text-align: center;
+        font-size: 100%;
+        padding: 2% 2%;
+    }
+
+    .card-detail > p {
+        margin: 5% auto;
+    }
+
+    /* --------------- Date card section styles ---------------*/
+
+    .third-card {
+        border-radius: 1rem;
+        border: 0.0625rem solid #ccc;
+    }
+
+    .date-card {
+        margin: 5% 5%;
+    }
+
+    .colored-text-date {
+        color: var(--pink-text);
+        padding-left: 40%;
+    }
+
+    .date {
+        font-weight: 600;
+        font-size: 450%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-month {
+        position: relative;
+        bottom: 3.5rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .date-year {
+        position: relative;
+        right: 3.4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .arrow > img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .date-one {
+        display: inline-block;
+
+    }
+
+    .date-two{
+        display: inline-block;
+        padding-left: 19px;
+    }
+
+    .custom-currency-text-align {
+        text-align: center;
+    }
+
+    .pricing-custom-align {
+        padding-left: 2.2rem;
+    }
+
+    /* --------------- Price card section styles ---------------*/
+
+    .fourth-card {
+        margin: 10% auto;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    .discount {
+        background-color: var(--orange-text);
+        padding: 0.5rem 0.5rem;
+        color: var(--white-text);
+        font-weight: 600;
+    }
+
+    .currency, .currency-amount, .currency-text-top{
+        font-weight: 600;
+        color: var(--orange-text);
+    }
+
+    .currency-amount {
+        font-size: 350%;
+    }
+
+    .currency-text-top {
+        position: relative;
+        bottom: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-bottom {
+        position: relative;
+        right: 9rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .currency-text-checkmark, .fa-check{
+        color: var(--green-text);
+    }
+}
