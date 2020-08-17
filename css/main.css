@@ -37,6 +37,7 @@ ul {
     background-color: var(--button-color);
     border-color: var(--button-color);
     color: var(--white-color);
+    text-transform: uppercase;
 }
 
 .button-secondary:hover {
