@@ -267,6 +267,14 @@ font-size: 30px;
         padding-left: 19px;
     }
 
+    .custom-currency-text-align {
+        text-align: center;
+    }
+
+    .pricing-custom-align {
+        padding-left: 2.2rem;
+    }
+
     /* --------------- Price card section styles ---------------*/
 
     .fourth-card {
