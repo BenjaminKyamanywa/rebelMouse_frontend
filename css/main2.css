@@ -262,6 +262,15 @@ button.button-primary:focus {
     font-size: 1.5rem;
 }
 
+.extra-text-pricing{
+    display: inline-block;
+    color: var(--green-text);
+    font-size: 10px;
+}
+
+.currency-text-checkmark, .fa-check {
+    color: var(--green-text);
+}
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
@@ -273,15 +282,15 @@ button.button-primary:focus {
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-    body {
+    /* body {
         overflow: hidden;
-    }
+    } */
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
     
-    body {
+    /* body {
         overflow: hidden;
-    }
+    } */
 }
