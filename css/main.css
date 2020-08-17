@@ -261,8 +261,8 @@ font-size: 30px;
         margin: 10% auto;
     }
 
-    .button-secondary {
-        
+    .button-container {
+        text-align: center;
     }
 
 }
