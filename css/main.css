@@ -13,6 +13,7 @@
     --orange-text: rgb(210, 127, 78);
     --green-text: rgb(118, 160, 91);
     --white-text: rgb(255, 255, 255);
+    --card-border-color: rgb(204, 204, 204);
     
 }
 
@@ -169,7 +170,6 @@ font-size: 30px;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Smaller mobile */
-/* Larger than mobile */
 @media (max-width: 400px) {
 
     /* --------------- Navigation styles ---------------*/
@@ -188,11 +188,6 @@ font-size: 30px;
         text-align: center;
         width: 100%;
         display: none;
-    }
-    .menu a {
-        display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
     }
 
     /* --------------- Badge styles ---------------*/
@@ -220,7 +215,7 @@ font-size: 30px;
 
     .third-card {
         border-radius: 1rem;
-        border: 0.0625rem solid #ccc;
+        border: 0.0625rem solid  var(--card-border-color);
     }
 
     .date-card {
@@ -373,7 +368,7 @@ font-size: 30px;
 
     .third-card {
         border-radius: 1rem;
-        border: 0.0625rem solid #ccc;
+        border: 0.0625rem solid var(--card-border-color);
     }
 
     .date-card {
@@ -478,6 +473,7 @@ font-size: 30px;
 /* Larger than phablet (also point when grid becomes active) */
 
 @media (min-width: 550px) {
+
     /* --------------- Navigation styles ---------------*/
 
     .nav {
@@ -526,7 +522,7 @@ font-size: 30px;
 
     .third-card {
         border-radius: 1rem;
-        border: 0.0625rem solid #ccc;
+        border: 0.0625rem solid var(--card-border-color);
     }
 
     .date-card {
@@ -678,7 +674,7 @@ font-size: 30px;
 
     .third-card {
         border-radius: 1rem;
-        border: 0.0625rem solid #ccc;
+        border: 0.0625rem solid var(--card-border-color);
     }
 
     .date-card {
@@ -830,7 +826,7 @@ font-size: 30px;
 
     .third-card {
         border-radius: 1rem;
-        border: 0.0625rem solid #ccc;
+        border: 0.0625rem solid var(--card-border-color);
     }
 
     .date-card {
@@ -933,7 +929,7 @@ font-size: 30px;
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-    
+
     /* --------------- Navigation styles ---------------*/
 
     .nav {
@@ -982,7 +978,7 @@ font-size: 30px;
 
     .third-card {
         border-radius: 1rem;
-        border: 0.0625rem solid #ccc;
+        border: 0.0625rem solid var(--card-border-color);
     }
 
     .date-card {
