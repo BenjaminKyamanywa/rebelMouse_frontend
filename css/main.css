@@ -2,18 +2,18 @@
 
 /* color properties */
 :root {
-    --main-color: rgb(34, 60, 116);
-    --button-color: rgb(196, 73, 124);
+    --main-color: rgb(39, 61, 112);
+    --button-color: rgb(182, 82, 123);
     --button-hover: rgb(236, 122, 170);
     --nav-active: rgb(200, 204, 96);
-    --ribbon-background: rgb(92, 151, 94);
-    --ribbon-text-highlight: rgb(211, 230, 103);
+    --ribbon-background: rgb(106, 149, 100);
+    --ribbon-text-highlight: rgb(231, 237, 126);
     --white-color: rgb(255, 255, 255);
     --border-color: rgb(234, 234, 235);  /* #EAEAEB */
     --dark-text: rgb(52, 56, 65);
-    --pink-text: rgb(196, 73, 124);
-    --orange-text: rgb(223, 122, 66);
-    --green-text: rgb(117, 169, 95);
+    --pink-text: rgb(236, 122, 170);
+    --orange-text: rgb(210, 127, 78);
+    --green-text: rgb(118, 160, 91);
     --white-text: rgb(255, 255, 255);
     
 }
