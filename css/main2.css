@@ -178,3 +178,13 @@ font-size: 20px;
     padding: 1rem;
     text-align: center;
 }
+
+/* --------------- Card Date styles ---------------*/
+
+.card-date {
+    border-radius: 2px;
+    border: 0.0625rem solid  var(--card-border-color);
+    padding: 1rem;
+}
+
+/* --------------- Card Price styles ---------------*/
