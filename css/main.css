@@ -222,6 +222,11 @@ font-size: 30px;
         margin: 5% 5%;
     }
 
+    .date-card-top-text {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+
     .colored-text-date {
         color: var(--pink-text);
         padding-left: 40%;
