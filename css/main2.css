@@ -84,6 +84,46 @@ ul {
 
 .highlighted {
     border-bottom: 1px solid yellow;
+    padding-bottom: 0.5rem;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+.custom-submit {
+    background-color: var(--button-color);
+    padding: 0.4rem 4rem;
+    margin-top: 0.8rem;
+    margin-left: -7rem;
+    text-align: center;
+    color: var(--white-text);
+    float: left;
+    cursor: pointer;
+}
+
+input[type=text] {
+    height: 26px;
+    padding: 0 30px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    border-radius: 3px 0 0 3px;
+}
+
+input[type=button] {
+    height: 26px;
+    left: -5px;
+    padding: 0 30px;
+    color: var(--white-text);
+    letter-spacing: 0;
+    line-height: 0;
+    border: none;
+    text-transform: none;
+    font-size: 1.3rem;
+    background-color: var(--button-color);
+    border-radius: 0 3px 3px 0; 
+    font-weight: normal;
 }
 
 /* .logo {
