@@ -23,6 +23,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 	1.2rem; 
     font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 
 .button-secondary {
@@ -39,6 +41,52 @@ header {
 }
 
 .logo {
+    display: inline-block;
+    width: 7rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 100%;
+}
+
+header li {
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    color: var(--white-text);
+    cursor: pointer;
+}
+
+header nav {
+    float: right;
+    margin-top: 1rem;
+}
+
+.nav-button { 
+    padding: 0.5rem 0.5rem;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+}
+
+ul:nth-child(10){
+    padding: 0 0 0 0;
+}
+
+ul {
+    float: right;
+}
+
+.highlighted {
+    border-bottom: 1px solid yellow;
+}
+
+/* .logo {
     position: absolute;
     display: inline-block;
     width: 7rem;
@@ -167,7 +215,7 @@ ul li {
 .pacotes {
     border-bottom: var(--orange-text) 1px solid;
     padding-bottom: 0.5rem;
-}
+} */
 
 
 /* --------------- Ribbon styles ---------------*/
@@ -387,11 +435,6 @@ button.button-primary:focus {
 
 /* Phones small devices */
 @media (max-width: 380px) {
-
-    .first-navigation, .second-navigation, .search-container{
-        visibility: hidden;
-    }
-
     /* --------------- Site styles ---------------*/
     .site-content-items {
         padding: 0 0;
@@ -417,10 +460,6 @@ button.button-primary:focus {
 /* Larger than mobile */
 @media (min-width: 381px) {
 
-    .first-navigation, .second-navigation, .search-container{
-        visibility: hidden;
-    }
-
     /* --------------- Site styles ---------------*/
     .site-content-items {
         padding: 0 0;
@@ -445,10 +484,6 @@ button.button-primary:focus {
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 
-    .first-navigation, .second-navigation, .search-container{
-        visibility: hidden;
-    }
-
     /* --------------- Site styles ---------------*/
     .site-content-items {
         padding: 2rem 0;
@@ -464,10 +499,6 @@ button.button-primary:focus {
 /* Larger than tablet */
 @media (min-width: 750px) {
 
-    .first-navigation, .second-navigation, .search-container{
-        visibility: hidden;
-    }
-
     .card-price {
         margin-top: 0;
         text-align: left;
@@ -476,10 +507,6 @@ button.button-primary:focus {
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-
-    .first-navigation, .second-navigation, .search-container{
-        visibility: hidden;
-    }
 
     .card-price {
         margin-top: 0;
@@ -490,10 +517,6 @@ button.button-primary:focus {
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-
-    .first-navigation, .second-navigation, .search-container{
-        visibility: visible;
-    }
 
     .card-price {
         margin-top: 0;
