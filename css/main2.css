@@ -25,15 +25,6 @@ body {
     font-weight: 400;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-}
-
 .button-secondary {
     background-color: var(--button-color);
     border-color: var(--button-color);
@@ -47,6 +38,20 @@ header {
     background-color: var(--main-color);
 }
 
+nav ul li {
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
+
+.nav-bar-button-custom {
+    color: var(--white-color);
+}
 
 
 /* --------------- Header styles ---------------*/
@@ -267,11 +272,7 @@ button.button-primary:focus {
 /* Phones small devices */
 @media (max-width: 380px) {
 
-    .nav {
-        background-image: url(../img/rebelMouse_logo_icon.png);
-        background-repeat: no-repeat;
-        padding-top: 1rem;
-    }
+
 
     /* --------------- Site styles ---------------*/
     .site-content-items {
@@ -297,12 +298,6 @@ button.button-primary:focus {
 
 /* Larger than mobile */
 @media (min-width: 381px) {
-
-    .nav {
-        background-image: url(../img/rebelMouse_logo_icon.png);
-        background-repeat: no-repeat;
-        padding-top: 1rem;
-    }
 
     /* --------------- Site styles ---------------*/
     .site-content-items {
