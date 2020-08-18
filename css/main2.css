@@ -105,7 +105,7 @@ p {
 
 .slider{
 	max-width: 700px;
-	border:10px solid  var(--main-color);
+	border: 5px solid  var(--main-color);
 	margin: 50px auto;
 	position: relative;
 	overflow: hidden;
@@ -128,7 +128,7 @@ p {
 }
 .slider .left-slide:hover,.slider .right-slide:hover{
  box-shadow: 0px 0px 10px black;
- background-color: #29a8e2;
+ background-color: var(--button-color);
 }
 
 .slider .left-slide{
@@ -294,19 +294,66 @@ button.button-primary:focus {
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+
+    .nav {
+        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+    }
+
+    /* --------------- Site styles ---------------*/
+    .site-content-items {
+        padding: 0 0;
+    }
+
+    /* --------------- Card Price styles ---------------*/
+    .date-align {
+        text-align: center;
+    }
+    
+    /* --------------- Card Price styles ---------------*/
+    .card-price {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .button-align {
+        text-align: center;
+    }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+
+    .nav {
+        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+    }
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+
+    .nav {
+        background-image: url(../img/rebelMouse_logo_icon.png);
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+    }
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
     /* body {
         overflow: hidden;
     } */
+
+    .nav {
+        background-image: url(../img/rebelMouse_logo.png);
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+    }
 }
 
 /* Larger than Desktop HD */
@@ -315,4 +362,10 @@ button.button-primary:focus {
     /* body {
         overflow: hidden;
     } */
+
+    .nav {
+        background-image: url(../img/rebelMouse_logo.png);
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+    }
 }

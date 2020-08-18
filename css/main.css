@@ -7,7 +7,7 @@
     --ribbon-background: rgb(106, 149, 100);
     --ribbon-text-highlight: rgb(231, 237, 126);
     --white-color: rgb(255, 255, 255);
-    --border-color: rgb(234, 234, 235);  /* #EAEAEB */
+    --border-color: rgb(234, 234, 235); 
     --dark-text: rgb(52, 56, 65);
     --pink-text: rgb(230, 32, 126);
     --orange-text: rgb(210, 127, 78);
@@ -18,6 +18,13 @@
 }
 
 /* --------------- Global styles ---------------*/
+
+/* ------- Resets -------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
