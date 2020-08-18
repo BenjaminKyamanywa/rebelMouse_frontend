@@ -40,7 +40,11 @@ header {
 
 nav ul li {
     display: inline-block;
-    margin: 1rem auto;
+    margin-top: 1rem;
+}
+
+ul {
+    margin: 0;
 }
 
 a {
@@ -50,11 +54,91 @@ a {
 }
 
 .nav-bar-button-custom {
+    padding: 0 1rem;
     color: var(--white-color);
 }
 
+.fa-user-circle {
+    color: var(--white-text);
+    padding: 1rem;
+}
 
-/* --------------- Header styles ---------------*/
+.enter-text {
+    color: var(--white-text);
+}
+
+ul :nth-child(8) {
+    padding-right: 4rem;
+  }
+
+.nav-bar-button-custom .enter-text {
+    float: right;
+}
+
+.search-container {
+    margin-bottom: 2rem;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+}
+
+input[type=text] {
+    display: inline-block;
+    height: 26px;
+    width: 80%;
+    padding: 0 30px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    border-radius: 3px 0 0 3px;
+}
+
+input[type=button] {
+    display: inline-block;
+    height: 26px;
+    left: -5px;
+    padding: 0 30px;
+    color: var(--white-text);
+    letter-spacing: 0;
+    line-height: 0;
+    border: none;
+    text-transform: none;
+    font-size: 1.3rem;
+    background-color: var(--button-color);
+    border-radius: 0 3px 3px 0; 
+    font-weight: normal;
+}
+
+input[type=button]:hover {
+    display: inline-block;
+    height: 26px;
+    left: -5px;
+    padding: 0 30px;
+    color: var(--white-text);
+    letter-spacing: 0;
+    line-height: 0;
+    border: none;
+    text-transform: none;
+    font-size: 1.3rem;
+    background-color: var(--button-hover);
+    border-radius: 0 3px 3px 0; 
+    font-weight: normal;
+}
+
+ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.pacotes {
+    border-bottom: var(--orange-text) 1px solid;
+    padding-bottom: 0.5rem;
+}
+
+
+/* --------------- Ribbon styles ---------------*/
 
 .ribbon {
     background-color: var(--ribbon-background);
