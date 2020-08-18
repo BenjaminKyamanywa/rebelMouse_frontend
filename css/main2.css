@@ -102,6 +102,17 @@ form {
     cursor: pointer;
 }
 
+.custom-submit:hover {
+    background-color: var(--button-hover);
+    padding: 0.4rem 4rem;
+    margin-top: 0.8rem;
+    margin-left: -7rem;
+    text-align: center;
+    color: var(--white-text);
+    float: left;
+    cursor: pointer;
+}
+
 input[type=text] {
     height: 26px;
     padding: 0 30px;
