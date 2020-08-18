@@ -388,7 +388,9 @@ button.button-primary:focus {
 /* Phones small devices */
 @media (max-width: 380px) {
 
-
+    .first-navigation, .second-navigation, .search-container{
+        visibility: hidden;
+    }
 
     /* --------------- Site styles ---------------*/
     .site-content-items {
@@ -415,6 +417,10 @@ button.button-primary:focus {
 /* Larger than mobile */
 @media (min-width: 381px) {
 
+    .first-navigation, .second-navigation, .search-container{
+        visibility: hidden;
+    }
+
     /* --------------- Site styles ---------------*/
     .site-content-items {
         padding: 0 0;
@@ -439,6 +445,10 @@ button.button-primary:focus {
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 
+    .first-navigation, .second-navigation, .search-container{
+        visibility: hidden;
+    }
+
     /* --------------- Site styles ---------------*/
     .site-content-items {
         padding: 2rem 0;
@@ -453,6 +463,11 @@ button.button-primary:focus {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+
+    .first-navigation, .second-navigation, .search-container{
+        visibility: hidden;
+    }
+
     .card-price {
         margin-top: 0;
         text-align: left;
@@ -461,6 +476,11 @@ button.button-primary:focus {
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
+
+    .first-navigation, .second-navigation, .search-container{
+        visibility: hidden;
+    }
+
     .card-price {
         margin-top: 0;
         text-align: left;
@@ -470,6 +490,11 @@ button.button-primary:focus {
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+
+    .first-navigation, .second-navigation, .search-container{
+        visibility: visible;
+    }
+
     .card-price {
         margin-top: 0;
         text-align: left;
