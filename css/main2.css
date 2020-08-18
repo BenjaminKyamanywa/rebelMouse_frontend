@@ -38,9 +38,33 @@ header {
     background-color: var(--main-color);
 }
 
+.logo {
+    position: absolute;
+    display: inline-block;
+    width: 7rem;
+    height: auto;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+.logo-image {
+    width: 100%;
+    height: auto;
+}
+
+.first-navigation {
+    margin-left: 10rem;
+    margin-top: 1.2rem;
+}
+
+.second-navigation {
+    font-size: 1rem;
+}
+
 nav ul li {
     display: inline-block;
     margin-top: 1rem;
+    font-size: 1rem;
 }
 
 ul {
@@ -66,10 +90,6 @@ a {
 .enter-text {
     color: var(--white-text);
 }
-
-ul :nth-child(8) {
-    padding-right: 4rem;
-  }
 
 .nav-bar-button-custom .enter-text {
     float: right;
