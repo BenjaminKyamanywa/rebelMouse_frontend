@@ -45,6 +45,7 @@ header {
     height: auto;
     margin-top: 3rem;
     margin-right: 2rem;
+    cursor: pointer;
 }
 
 .logo-image {
@@ -78,8 +79,19 @@ a {
 }
 
 .nav-bar-button-custom {
+    display: inline-block;
+    height: 30px;
+    color: var(--white-text);
+    letter-spacing: 0;
+    line-height: 2.5rem;
+    border: 1px solid #bbb;
+    text-transform: none;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border-radius: 3px; 
+    font-weight: normal;
     padding: 0 1rem;
-    color: var(--white-color);
+    cursor: pointer;
 }
 
 .fa-user-circle {
